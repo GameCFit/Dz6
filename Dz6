@@ -1,0 +1,13 @@
+using System;
+class Program
+{
+    static void Main(string[] args)
+    {
+        int albumSize = 52;
+        int sizeRow = 3;
+        int filledRows = 0;
+        int rows = albumSize / sizeRow;
+        int excess = albumSize % sizeRow;
+        Console.WriteLine($"полных рядов : {rows}. Лишних картинок : {excess}");
+    }
+}
