@@ -5,9 +5,8 @@ class Program
     {
         int albumSize = 52;
         int sizeRow = 3;
-        int filledRows = 0;
-        int rows = albumSize / sizeRow;
+        int filledRows = albumSize / sizeRow;
         int excess = albumSize % sizeRow;
-        Console.WriteLine($"полных рядов : {rows}. Лишних картинок : {excess}");
+        Console.WriteLine($"полных рядов : {filledRows}. Лишних картинок : {excess}");
     }
 }
